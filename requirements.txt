@@ -1,0 +1,33 @@
+# Core dependencies for Milestone 1
+speechrecognition==3.10.0
+# Using a more compatible version of PyAudio
+pyaudio>=0.2.11
+opencv-python==4.8.1.78
+numpy>=1.21.0
+
+# Whisper for better speech recognition
+openai-whisper==20231117
+
+# Audio playback
+pygame>=2.5.0
+playsound>=1.3.0
+
+# Utility libraries
+python-dotenv==1.0.0
+colorama==0.4.6
+
+# Testing
+pytest==7.4.0
+pytest-mock==3.11.1
+
+# Milestone 2: Face Recognition
+face-recognition==1.3.0
+mediapipe>=0.10.3
+pillow>=9.0.0
+scikit-image>=0.19.0
+pandas>=1.5.0
+
+# Future milestones (commented out for now)
+# gtts==2.3.2
+# pyttsx3==2.90
+# deepface==0.0.79
